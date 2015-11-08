@@ -1,0 +1,83 @@
+/* ====================================================================================================
+ * jQuery Slider v0.0.1
+ * ==================================================================================================== */
+.glider {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.glider h3 {
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	background-color: rgba(62, 62, 62, 0.9);
+	position: relative;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.sliderOne-caption {
+	background-color: rgba(62, 62, 62, 0.9);
+	color: #fff;
+	left: 0;
+	margin: 0;
+	padding: 10px;
+}
+.sliderOne-caption a {
+	font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+	#contactInfo,
+	.glider:first-child {
+		margin-top: 30px;
+	}
+	.glider {
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		margin-bottom: 30px;
+		max-height: 250px;
+	}
+	.glider h3 {
+		color: #fff;
+		text-align: center;
+		padding: 10px 0;
+		background-color: rgba(62, 62, 62, 0.9);
+		position: relative;
+		margin-top: 0;
+		text-transform: uppercase;
+	}
+	.gliderImage {
+		display: none;
+	}
+	.sliderOne-caption {
+		display: block !important;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(62, 62, 62, 0.7);
+	}
+}
+@media only screen and (min-width: 768px) {
+	.glider h3 {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	.gliderImage {
+		height: 20px;
+		width: 40px;
+		line-height: 14px;
+		color: #fff;
+		border-radius: 0 0 90px 90px;
+		-moz-border-radius: 0 0 90px 90px;
+		-webkit-border-radius: 0 0 90px 90px;
+		background: rgba(62, 62, 62, 0.9);
+		margin: 0 auto;
+	}
+	.sliderOne-caption a {
+		display: block;
+		font-weight: bold;
+	}
+}
