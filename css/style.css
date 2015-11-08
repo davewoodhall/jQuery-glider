@@ -1,0 +1,248 @@
+﻿a, a.active {
+	color: #e48a09;
+}
+a:hover {
+	color: #d1800c;
+	text-decoration: none;
+}
+article {
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+aside {
+	padding-bottom: 30px;
+}
+body {
+	background: url('../img/header.jpg') top center #fff;
+	font-family: 'Quicksand', sans-serif;
+	background-repeat: no-repeat;
+	color: #3e3e3e;
+}
+.bodyCopy {
+	background-color: #fff;
+}
+.drop_shadow {
+	-webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.25);
+}
+.btn-facebook {
+	background: rgb(100,120,163);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY0NzhhMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NjVkOTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(100,120,163,1) 0%, rgba(70,93,144,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(100,120,163,1)), color-stop(100%,rgba(70,93,144,1)));
+	background: -webkit-linear-gradient(top,  rgba(100,120,163,1) 0%,rgba(70,93,144,1) 100%);
+	background: -o-linear-gradient(top,  rgba(100,120,163,1) 0%,rgba(70,93,144,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(100,120,163,1) 0%,rgba(70,93,144,1) 100%);
+	background: linear-gradient(to bottom,  rgba(100,120,163,1) 0%,rgba(70,93,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6478a3', endColorstr='#465d90',GradientType=0 );
+	color: #fff;
+	border: 1px solid #2E4A84;
+}
+.btn-facebook:hover {
+	border: 1px solid #204d74;
+	background: rgb(70,100,160);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ2NjRhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMDRlOGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(70,100,160,1) 0%, rgba(48,78,142,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(70,100,160,1)), color-stop(100%,rgba(48,78,142,1)));
+	background: -webkit-linear-gradient(top,  rgba(70,100,160,1) 0%,rgba(48,78,142,1) 100%);
+	background: -o-linear-gradient(top,  rgba(70,100,160,1) 0%,rgba(48,78,142,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(70,100,160,1) 0%,rgba(48,78,142,1) 100%);
+	background: linear-gradient(to bottom,  rgba(70,100,160,1) 0%,rgba(48,78,142,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4664a0', endColorstr='#304e8e',GradientType=0 );
+	color: #fff;
+}
+form button {
+	margin-top: 10px;
+}
+footer {
+	background-color: #3e3e3e;
+	color: #fff;
+	font-size: active12px;
+	font-size: 1.2rem;
+	padding: 27px 0;
+}
+header {
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 5px 0;
+}
+html {
+	background-color: #3e3e3e;
+	font-size: 10px;
+}
+img {
+	max-width: 100%;
+}
+img.pull-left {
+	padding-right: 15px;
+	padding-left: 0;
+}
+img.pull-right {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.input-group-addon {
+	vertical-align: top;
+}
+.input-group:first-child .input-group-addon:first-child {
+	border-radius: 4px 0 0 0;
+}
+.input-group:last-child .input-group-addon:first-child {
+	border-radius: 0 0 0 4px;
+}
+.input-group + .input-group .input-group-addon:first-child {
+	border-radius: 0;
+	border-top: none;
+}
+.input-group + .input-group .form-control {
+	border-radius: 0;
+	border-top: none;
+}
+.input-group:last-of-type .input-group-addon {
+	border-radius: 0 0 0 4px !important;
+}
+.ir {
+	display: block;
+	border: 0;
+	text-indent:-999em;
+	overflow: hidden;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	text-align: left;
+	direction: ltr;
+	*line-height: 0;
+}
+.languageBtn {
+	display: block !important;
+}
+.logo {
+	display:block;
+	padding-top:60%;
+	background: url(../img/logo-transport-messier-et-fils.svg) center center no-repeat;
+	background-size:contain;
+}
+	.no-svg .logo {
+		background:url(../img/logo-transport-messier-et-fils.png) center center no-repeat;
+		background-size:contain;
+	}
+nav {
+	font-weight: bold;
+	font-size: 18px;
+	font-size: 1.8rem;
+	border-bottom: 1px solid #c7c7c7;
+}
+nav a {
+	color: #3e3e3e;
+}
+nav li {
+	list-style-type: none;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: transparent;
+	color: #e48a09;
+}
+nav ul {
+	display: block;
+	width: 100%;
+}
+.navbar-toggle {
+	color: #3e3e3e;
+}
+.presentationalHeader {
+	padding: 6% 0;
+}
+.secondaryHeader {
+	padding: 2% 0;
+}
+.semitransparent.white {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0.6)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60ffffff', endColorstr='#60ffffff',GradientType=0 );
+}
+.well .jumbotron {
+	padding: 0;
+	background-color: transparent;
+	margin-bottom: 0;
+}
+/* =====| small and x-small devices |================================================================== */
+@media only screen and (max-width: 767px) {
+	footer {
+		text-align: center;
+	}
+	nav {
+		border-bottom: none;
+	}
+	nav li {
+		list-style-type: none;
+		display: block;
+	}
+	nav li a {
+		padding-left: 0;
+	}
+	nav ul {
+		margin: 0 auto;
+	}
+}
+/* =====| medium and larger devices |================================================================== */
+@media only screen and (min-width: 768px) {
+	#contactInfo {
+		position: relative;
+	}
+	#contactInfo:after {
+		content: "";
+		background: url("http://placehold.it/1400x600");
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;
+	}
+	footer {
+		text-align: right;
+	}
+	nav {
+		margin-bottom: 20px;
+	}
+	nav li {
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+		float: none;
+		text-align: center;
+		width: 25%;
+		position: relative;
+	}
+	nav li:after {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 0;
+		height: 10px;
+		background-color: #e48a09;
+		content: "";
+		-webkit-transition: all 0.5s ease;
+		   -moz-transition: all 0.5s ease;
+		     -o-transition: all 0.5s ease;
+		        transition: all 0.5s ease;
+	}
+	nav li:hover:after {
+		width: 100%;
+		left: 0;
+	}
+}
+/* =====| large devices |============================================================================== */
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+}
