@@ -1,6 +1,9 @@
 # jQuery-glider
 Lightweight animated image description
 
+## Demo
+[Demo](http://davewoodhall.com/plugins/jQuery-glider/index.html)
+
 ### HTML Syntax
 
 ```javascript
