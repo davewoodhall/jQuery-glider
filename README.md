@@ -30,4 +30,4 @@ speed | 250 | Effect speed
 ### Data attributes
 Option  | Default value | Set on | Description
 ------------- | ------------- | -------------
-data-type |  | $('.glider') | `image-only` will just show the image, no effect or anything else
+data-type | (optional) | $('.glider') | `image-only` will just show the image, no effect or anything else
