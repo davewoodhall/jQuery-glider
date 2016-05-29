@@ -66,9 +66,21 @@
 				</thead>
 				<tbody>
 					<tr>
+						<td>format</td>
+						<td>square</td>
+						<td>Values: <em>square | auto</em> <br />
+							<em>square</em> makes the element square <br />
+							<em>auto</em> keeps image proportions</td>
+					</tr>
+					<tr>
 						<td>iconAfter</td>
 						<td>null</td>
 						<td>Use HTML to add an icon beneath the title</td>
+					</tr>
+					<tr>
+						<td>showTitle</td>
+						<td>true</td>
+						<td>Show the title when the element isn't hovered</td>
 					</tr>
 					<tr>
 						<td>speed</td>
@@ -84,86 +96,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='js/jquery-1.9.0.min.js'><\/script>");</script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/jQuery-glider.min.js"></script>
 <script>
-	/* ====================================================================================================
-	 * jQuery Slider v 0.0.1
-	 * Author:
-	 * 		Dave Woodhall
-	 * 		info@davewoodhall.com
-	 * Syntax
-	 * ----------------------------------------------------------------------------------------------------
-			<div class="glider">
-				<h3>Title</h3>
-				<img src="path/to/image.jpg" />
-				<p>
-					This text will be used as caption. <a href="#">Links are accepted.</a>
-				</p>
-			</div>
-	 * ==================================================================================================== */
-	(function( $ ) {
-		$.fn.sliderOne = function(settings) {
-			$(this).each(function(index, value){
-				var caption = $(this).children('p'),
-					defaults = {
-						iconAfter: null,
-						speed: 250
-					},
-					image = $(this).children('img'),
-					mobile = ($(window).width() <= 767),
-					opts = $.extend({}, defaults, settings),
-					out,
-					text = caption.html(),
-					titleBox = $(this).children('h3');
-
-				// Append sliding content
-				out =
-					'<div class="sliderOne-caption">'+
-						text+
-					'</div>';
-				titleBox.wrap('<div class="titleWrap"></div>');
-				$('.titleWrap', $(this)).append(out);
-
-				$(this).css({
-					'background-image': 'url('+image.attr("src")+')',
-					'background-size': 'cover',
-					'background-position': 'center center',
-					'height': $(this).outerWidth()
-				});
-				caption.remove();
-				image.remove();
-
-				// Deal with special options
-				if (opts.iconAfter)
-					$(this).append('<div class="gliderImage">'+opts.iconAfter+'</div>');
-
-				$('.sliderOne-caption', $(this)).slideUp(opts.speed);
-
-				$(this).mouseenter(function(){
-					if($(window).width() <= 767)
-						return;
-					else
-						$(this).css({
-							'height': $(this).outerWidth()
-						});
-					$('.sliderOne-caption', $(this)).slideDown(opts.speed);
-				}).mouseleave(function(){
-					if($(window).width() <= 767)
-						return;
-					else
-						$(this).css({
-							'height': $(this).outerWidth()
-						});
-					$('.sliderOne-caption', $(this)).slideUp(opts.speed);
-				});
-			});
-		};
-	})(jQuery);
-
 	/* ====================================================================================================
 	 * Run the code
 	 * ==================================================================================================== */
-	$('.glider').sliderOne({
+	$('.glider').glider({
 		iconAfter: '<i class="fa fa-caret-down"></i>',
 		speed: 100
 	});
