@@ -17,7 +17,7 @@ Lightweight animated image description
 ```
 
 ### Initializing the code
-$('.glider').sliderOne();
+$('.glider').glider();
 
 ### Options
 Option  | Default value | Description
@@ -26,3 +26,8 @@ format | square | `square` makes the element square, `auto` leaves the image asp
 iconAfter | null | Use HTML to add an icon beneath the title
 showTitle | true | Show the title when the element isn't hovered
 speed | 250 | Effect speed
+
+### Data attributes
+Option  | Default value | Set on | Description
+------------- | ------------- | -------------
+data-type |  | $('.glider') | `image-only` will just show the image, no effect or anything else
